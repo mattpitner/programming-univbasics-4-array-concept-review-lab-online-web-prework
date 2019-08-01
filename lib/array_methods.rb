@@ -19,7 +19,8 @@ def find_max_value(array)
   return currentMax 
 end
 
-
 def find_min_value(array)
-  # Add your solution here
+  currentMax = array[0]
+  array.each do |i|
+    if i 
 end
