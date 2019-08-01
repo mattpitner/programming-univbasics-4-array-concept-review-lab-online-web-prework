@@ -22,5 +22,9 @@ end
 def find_min_value(array)
   currentMax = array[0]
   array.each do |i|
-    if i 
+    if i < currentMax
+      currentMax = i 
+    end
+  end
+  return currentMax
 end
