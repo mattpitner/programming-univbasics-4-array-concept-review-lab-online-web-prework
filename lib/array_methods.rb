@@ -12,7 +12,7 @@ end
 def find_max_value(array)
   currentMax = array[0]
   array.each do |i|
-    if i < currentMax
+    if i > currentMax
       currentMax = i
     end
   end
